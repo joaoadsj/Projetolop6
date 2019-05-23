@@ -36,7 +36,9 @@ function draw() {
   }
   if(dist(x, y, xi, yi)< raioO + raioP) 
   {
-    x=50
+    x=20
     y=200
+    yi=200
+    xi=385
   }
 }
