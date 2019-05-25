@@ -67,5 +67,13 @@ if( estadoDisparo ) {
     y=200
     yi=200
     xi=1385
+    vidas=vidas-1
+  }
+  if(dist(xd,yd,xi,yi)< raioO)
+  {
+    pontos=pontos+1
+    raioO=0
+    xi=0
+    yi=0
   }
 }
